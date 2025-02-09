@@ -1,0 +1,63 @@
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+secrets/
+# Compiled class files
+*.class
+# Log files
+*.log
+
+### Build tools wrappers ###
+.mvn/
+!**/maven-wrapper.properties
+.gradle/
+
+### Kotlin compiler ###
+.kotlin/
+ 
+### STS ###
+.apt_generated/
+.classpath/
+.factorypath/
+.project/
+.settings/
+.springBeans/
+.sts4-cache/
+ 
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+ 
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+ 
+### VS Code ###
+.vscode/
+
+### Misc ###
+iso/
+*.iso
+.localstack/
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
